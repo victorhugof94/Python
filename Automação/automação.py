@@ -4,11 +4,11 @@ import pyperclip as pc
 
 pg.PAUSE = 1
 pg.alert('Vamos Registrar o Horario')
-
+# para abrir o navegador do chrome
 pg.press('win')
 pg.write('chrome')
 pg.press('enter')
-
+# copiando link para o navegador
 link = 'https://santodigital.atlassian.net/browse/BS-162'
 pc.copy(link)
 pg.hotkey('ctrl','v')
