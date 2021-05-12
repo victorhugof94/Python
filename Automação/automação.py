@@ -9,7 +9,7 @@ pg.press('win')
 pg.write('chrome')
 pg.press('enter')
 # copiando link para o navegador
-link = 'https://santodigital.atlassian.net/browse/BS-162'
+link = 'url'
 pc.copy(link)
 pg.hotkey('ctrl','v')
 pg.press('enter')
